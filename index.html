@@ -2,65 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seatwork 3</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Merriweather:wght@300;700&display=swap">
+    <link rel="stylesheet" href="./assets/css/style.css"> <!-- Link to your CSS file -->
+    <link rel="icon" type="image/x-icon" href="./assets/img/jl.png">
 </head>
 <body>
-    <video autoplay loop muted id="background-video">
-        <source src="./assets/vids/webdesvid.mp4" type="video/mp4">
-    </video>
-    <div class="header" id="headerline">
-        <img class="wot-logo" src="./assets/img/wot.png1" alt="wot">
-        <h2>Header and Footer Gallery</h2>
-    </div>    
-
+    <header class="header">
+        <img src="./assets/img/justleg.avif" alt="Logo" class="logo">
+        <h1>Headers & Footers</h1>
+        <h2>Seatwork 3</h2>
+    </header>
     <main>
-        <section class="content">
-            <h1>Welcome to the Header and Footer Gallery</h1>
-            <p>This website showcases different static and animated header and footer designs using pure HTML and CSS.</p>
-            <nav>
-                <ul>
-                    <li><a href="#header-gallery">Header Gallery</a></li>
-                    <li><a href="#footer-gallery">Footer Gallery</a></li>
-                </ul>
-            </nav>
-        </section>
-
-        <section id="header-gallery">
-            <h1>Header Gallery</h1>
-            <div class="header" id="headerline">
-                <img class="wot-logo" src="./assets/img/wot.png" alt="wot">
-                <h1>Header and Footer Gallery</h1>
-            </div>    
-        </section>
-
-        <section id="footer-gallery">
-            <h1>Footer Gallery</h1>
-            <footer class="static-footer">
-                <div class="footer-content">
-                    <h2>Footer</h2>
-                    <p>Static Footer</p>
-                </div>
-                <div class="footer-bottom">
-                    <p>© 2024 Seatwork 3</p>
-                </div>
-            </footer>
-
-            <footer class="animated-footer">
-                <div class="footer-content">
-                    <h2>Footer</h2>
-                    <p>Animated Footer</p>
-                </div>
-                <div class="footer-bottom">
-                    <p>© 2024 Seatwork 3</p>
-                </div>
-            </footer>
+        <section>
+            <p>This Website Contains Both Animated and Static Designs of Headers and Footers</p>
         </section>
     </main>
+
+    <div class="content">
+        <div class="right-side">
+            <a href="./pages/header-gallery/index.html" class="btn">Headers</a>
+            <a href="./pages/footer-gallery/index.html" class="btn-secondary">Footers</a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 SEATWORK 3. FOOTERS AND HEADERS (All rights reserved).</p>
+    </footer>
 </body>
 </html>
+

@@ -1,179 +1,190 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Merriweather", serif;
-    list-style: none;
-    text-decoration: none;
-    outline: none;
-}
-
-body, html {
-    height: 100%;
+.body {
+    font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-}
-
-.header, .footer {
-    width: 100%;
-    text-align: center;
-    padding: 20px;
-}
-
-.header h1, .footer h2 {
-    font-size: 2em;
-    color: #ffffff;
-}
-
-.wot-logo {
-    display: flex;
-    justify-self: flex-start;
-    width: 150px;
-    padding: 30px;
-    background-color: transparent;
-    transition: transform 0.3s, filter 0.3s;
-}
-
-.wot-logo:hover {
-    transform: scale(1.1);
-    filter: drop-shadow(-15px 7px 23px #ff0000);
-}
-
-h2 {
-    font-family: "Merriweather", serif;
-    font-weight: 900;
-    font-style: normal;
-    display: flex;
-    justify-self: flex-start;
-    width: 450px;
-    padding: 30px;
-    background-color: transparent;
-    transition: transform 0.3s, filter 0.3s;
-}
-
-h2:hover {
-    transform: scale(1.1);
-    filter: drop-shadow(-15px 7px 23px #ff0000);
+    background: url('../img/lakerschampssssss.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 
 .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    padding: 10px 16px;
-    background-color: #000000;
-    color: #ffffff;
-    display: flex;
-    align-items: center;
-    border-bottom: 2px solid #ffffff;
-    transition: background-color 0.3s;
+    font-family: ' Ieicester Light';
+    src: url('../fonts/ Ieicester Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
-.header:hover {
-    background-color: #000000;
-}
-
-.content {
-    padding: 16px;
-    margin-top: 150px;
-    color: white;
-}
-
-#background-video {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-}
-
-.animated-header {
-    background-color: #444;
-    animation: slideIn 2s ease-out;
-}
-
-@keyframes slideIn {
-    from {
-        transform: translateY(-100%);
-    }
-    to {
-        transform: translateY(0);
-    }
-}
-
-.static-footer, .animated-footer {
-    background-color: #000000;
-    color: #ffffff;
+.container {
+    max-width: 900px;
+    margin: 13px auto;
+    text-align: center;
+    border-radius: 10px;
     padding: 20px;
+}
+
+.header {
+    padding: 20px;
+    font-size: large;
+    color: rgb(53, 3, 3);
+    position: relative;
+}
+
+.header .logo {
+    position: absolute;
+    top: 10px;
+    left: 14px;
+    width: 90px; /* Adjust the size of the logo */
+    height: auto;
+    border-radius: 50%;
+    animation: rotate 10s linear infinite;
+}
+
+.footer {
+    background-color: #ffa8B6;
+    color: #000000;
+    padding: 10px; /* Adjusted padding */
     position: fixed;
     bottom: 0;
     width: 100%;
     text-align: center;
-    border-top: 2px solid #ffffff;
-    transition: background-color 0.3s;
+    height: 50px; /* Adjusted height for thin footer */
+    line-height: 20px; /* Vertically center text in footer */
+    margin: 0;
 }
 
-.static-footer:hover, .animated-footer:hover {
-    background-color: #000000;
+.h1 {
+    margin-bottom: 100px;
 }
 
-.footer-content {
-    padding-top: 10px;
+.header {
+    font-size: 15px;
+    width: 100%;
+    line-height: 1.5;
+    margin-bottom: 480px;
+    margin-right: 300px;
+    bottom: px;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
-.footer-bottom {
-    margin-top: 10px;
+.right-side {
+    padding-left: 400px;
 }
 
-nav ul {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    margin-top: 20px;
+.btn, .btn-secondary {
+
+    padding: 12px 65px;
+    background-color: #d0bdf4;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all 0.25s ease;
+    box-shadow: 0 4px 8px 9px rgba(0, 0, 0, 0.1);
 }
 
-nav a {
+.btn-secondary {
+    margin: 380px 300px;
+    transition: all 0.5s ease;
+}
+
+.btn:hover, .btn-secondary:hover {
+    background-color: #a0d2eb;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+/* Global Reset and Setup */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: url('../img/lakerschampssssss.jpg') no-repeat center center fixed;
+    background-size: cover;
     color: #ffffff;
-    font-size: 1.2em;
-    transition: color 0.3s;
-}
+    line-height: 1.5;
 
-nav a:hover {
-    color: #ffffff;
 }
-
-.content h1, .content p {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.content h1 {
-    font-size: 2.5em;
-}
-
-.content p {
-    font-size: 1.2em;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.header-gallery-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 20px;
+main section p {
+    color: rgb(255, 255, 255);
     margin: 20px 0;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(242, 0, 0, 0.2);
+    margin-top: 30rem;
+    font-size: 16px;
+    text-align: center;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 100px;
 }
 
-.header-gallery-item h1 {
-    margin-left: 20px;
+.header {
+    background-color: #0049B7; /* Light background color for header */
+    padding: 3px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgb(0, 0, 0); /* Subtle shadow */
+}
+
+.header .logo {
+    width: 100px; /* Adjusted size of the logo */
+    height: auto;
+    border-radius: 50%; /* Rounded logo */
+}
+
+.header h1 {
+    font-size: 2rem; /* Larger font size for main header */
+    box-shadow: rgb(255, 255, 255) 3px 3px 6px 0px inset, #e5eaf5 -3px -3px 6px 1px inset; 
+    margin-bottom: 10px;
+    color: #000000; /* Darker color for header text */
+}
+
+.header h2 {
+    font-size: 1.8rem; /* Slightly smaller font size for subtitle */
+    color: #210c7e; /* Subdued color for subtitle */
+}
+
+.header p {
+    font-size: 1rem; /* Smaller font size for description */
+    margin-bottom: 20px; /* Spacing below description */
+}
+
+.footer {
+    background-color: #2e2c2c; /* Dark background color for footer */
+    color: #fff; /* Light text color for footer */
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    font-size: 0.9rem; /* Smaller font size for footer text */
+}
+
+/* Hover Effect */
+.hover {
+    position: relative;
+    display: inline-block;
+    font-size: 2.5rem; /* Adjusted font size */
+    color: rgba(255, 255, 255, 0.3); /* Light text color */
+    transition: all 0.4s ease;
+}
+
+.hover::before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+
+.hover:hover {
+    background: rgba(255, 255, 255, 0.1); /* Light background on hover */
+    color: #edf756; /* Accent color on hover */
 }
