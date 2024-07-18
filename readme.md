@@ -62,11 +62,12 @@ Description of the project in details.
 Guiding Question:
 - What is the project - The project is to make 5 footers and headers.
 - Whats the purpose - To enhance our coding skills and creativity.
-- What are key components
-- What technology used and how it is used
+- What are key components - The key components are 5 animated and static designs.
+- What technology used and how it is used - HTML and CSS.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
+Designs and implementation of the website
 <!-- The following are just sample -->
 - MultiPage Website/Single Page Website
 - Parallax transition
@@ -117,4 +118,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Codepen | help me fix the errors, and guide me.| https://codepen.io/ |
