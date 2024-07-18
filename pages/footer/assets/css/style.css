@@ -344,7 +344,7 @@ footer .menu li {
 
 footer .social_icon li a {
     font-size: 2em;
-    color: #ccc;
+    color: #000000;
     margin: 0 10px;
     transition: 0.5s;
 }
@@ -356,7 +356,7 @@ footer .social_icon li a:hover {
 
 footer .menu li a {
     font-size: 1.2em;
-    color: #ccc;
+    color: #000000;
     margin: 0 10px;
     transition: 0.5s;
     opacity: 0.75;
@@ -368,7 +368,7 @@ footer .menu li a:hover {
 }
 
 footer p {
-    color: #eee;
+    color: #000000;
     text-align: center;
     margin-top: 15px;
     margin-bottom: 10px;
