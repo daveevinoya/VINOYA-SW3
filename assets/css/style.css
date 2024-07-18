@@ -63,15 +63,6 @@
     margin-right: 300px;
     bottom: px;
 }
-@keyframes rotate {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-
 .right-side {
     padding-left: 400px;
 }
