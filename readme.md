@@ -18,9 +18,9 @@
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
+<!-- TODO: Change the zyx-0314 into your github username  --> daveevinoya
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+https://github.com/daveevinoya/VINOYA-SW
 
 ---
 
@@ -57,13 +57,13 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+This project contains 5 different designs of footer and header.
 
 Guiding Question:
-- What is the project - The project is to make 5 footers and headers.
-- Whats the purpose - To enhance our coding skills and creativity.
-- What are key components - The key components are 5 animated and static designs.
-- What technology used and how it is used - HTML and CSS.
+- What is the project
+- Whats the purpose
+- What are key components
+- What technology used and how it is used 
 
 ### Key Components
 <!-- TODO: List of Key Components -->
