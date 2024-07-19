@@ -67,11 +67,11 @@ Guiding Question:
 
 ### Key Components
 <!-- TODO: List of Key Components -->
-Designs and implementation of the website
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Designs of the website
+- Implementation of the website
+- hover
+-footer and header styles
 
 ### Technology
 <!-- TODO: List of Technology Used -->
