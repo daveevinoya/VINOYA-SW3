@@ -71,8 +71,8 @@ Guiding Question:
 - Designs of the website
 - Implementation of the website
 - hover
--footer and header styles
--Multi page
+- footer and header styles
+- Multi page
 
 ### Technology
 <!-- TODO: List of Technology Used -->
