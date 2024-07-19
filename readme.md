@@ -72,6 +72,7 @@ Guiding Question:
 - Implementation of the website
 - hover
 -footer and header styles
+-Multi page
 
 ### Technology
 <!-- TODO: List of Technology Used -->
