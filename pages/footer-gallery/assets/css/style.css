@@ -13,11 +13,11 @@ body {
 
 .home-button {
     display: inline-block; /* Change from block to inline-block */
-    background-color: #00aeff;
+    background-color: #ff85a2;
     color: white;
     padding: 10px 25px;
     border-radius: 4px;
-    border-color: #00aeff;
+    border-color: #ff85a2;
     cursor: pointer;
     margin: 0; /* Remove the left margin */
     margin-top: 20px;
@@ -33,7 +33,7 @@ a{
     padding: 10px;
     margin-top: 20px;
     text-align: center;
-    color: #fd557c;
+    color: #871a33;
 }
 
 h1 {
@@ -43,7 +43,7 @@ h1 {
 }
 
 .footer {
-    background-color: #00aeff;
+    background-color: #ff659b;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -67,7 +67,7 @@ h1 {
 
 .social-icons button {
     border: none; 
-    background-color: #f31fa9;
+    background-color: #1fc2f3;
     color: white; 
     padding: 10px 15px;
     margin: 5px;
@@ -93,7 +93,7 @@ h1 {
 }
 
 .footer-1 {
-    background-color: rgb(35, 100, 130);
+    background-color: rgb(146, 220, 255);
     color: rgb(88, 88, 88);
     margin-top: 30px;
 }
@@ -105,7 +105,7 @@ h1 {
 }
 
 .footer-2 {
-    background-color: rgb(255, 12, 170);
+    background-color: rgb(255, 184, 249);
     color: black;
     margin-top: 30px;
 }
@@ -138,7 +138,7 @@ h1 {
 }
 
 .content hr {
-    background-color: rgb(255, 12, 170)a;
+    background-color: #ee75da;
     border: none;
     height: 1px; 
     margin: 0 auto; 
@@ -155,13 +155,13 @@ h1 {
 }
 
 .footer-3 {
-    background-color: rgb(0, 255, 149);
+    background-color: rgb(116, 255, 139);
     color: white;
     margin-top: 30px;
 }
 
 .footer-4 {
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(246, 255, 74);
     color: rgb(0, 0, 0);
     margin-top: 30px;
 }
@@ -213,7 +213,7 @@ h1 {
 /*Animated Design*/
 
 .footera {
-    background-color: #00aeff;
+    background-color: #ff659b;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -267,7 +267,7 @@ h1 {
 }
 
 .footer-1a {
-    background-color: rgb(0, 174, 255);
+    background-color: rgb(146, 220, 255);
     color: rgb(88, 88, 88);
     margin-top: 30px;
 }
@@ -279,7 +279,7 @@ h1 {
 }
 
 .footer-2a {
-    background-color: rgb(250, 5, 230);
+    background-color: rgb(255, 184, 249);
     color: rgb(0, 0, 0);
     margin-top: 30px;
 }
@@ -319,11 +319,11 @@ h1 {
 }
 
 .footer-2a a:hover {
-    background-color: #ff2f05; /* Color fill on hover */
+    background-color: #9f00b1; /* Color fill on hover */
 }
 
 .contenta hr {
-    background-color: #ff00d4;
+    background-color: #ee75da;
     border: none;
     height: 1px; 
     margin: 0 auto; 
@@ -340,7 +340,7 @@ h1 {
 }
 
 .footer-3a {
-    background-color: rgb(116, 255, 186);
+    background-color: rgb(116, 255, 139);
     color: white;
     margin-top: 30px;
 }
@@ -386,11 +386,11 @@ h1 {
 }
 
 @keyframes changeColor {
-    0% { background-color: #50487f; }
-    25% { background-color: #6f00ff; }
-    50% { background-color: #677feb; }
-    75% { background-color: #1900ff; }
-    100% { background-color: #00aeff; }
+    0% { background-color: #ff00bb; }
+    25% { background-color: #9900ff; }
+    50% { background-color: #ff0101; }
+    75% { background-color: #ff0077; }
+    100% { background-color: #ff00bb; }
 }
 .footer-4a {
     color: rgb(0, 0, 0);
@@ -470,7 +470,7 @@ h1 {
 }
 
 .footera {
-    background-color: #00aeff;
+    background-color: #ff659b;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -567,7 +567,7 @@ h1 {
 
 /*footer2 for animated designs*/
 .footera2:hover {
-    background-color: #00aeff; /* New color on hover */
+    background-color: #ff00d0; /* New color on hover */
 }
 
 .footera2 {
@@ -604,7 +604,7 @@ h1 {
 
 /*footer3 for animated designs*/
 .footera3:hover {
-    background-color: #30f100c6; /* New color on hover */
+    background-color: #73ff37; /* New color on hover */
 }
 .footera3 {
     color: white;

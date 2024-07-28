@@ -1,33 +1,33 @@
 body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-image: url('https://pa1.aminoapps.com/6396/eb6179ffcef19a793d3356e388908f715cdf42d6_00.gif');
-    background-size: cover;
-  }
-  .container {
-    text-align: center;
-  }
-  .buttons {
-    margin-top: 20px;
-  }
-  .btn {
-    text-decoration: none;
-    padding: 10px 20px;
-    margin: 5px;
-    background-color: #006aff;
-    color: white;
-    border-radius: 5px;
-  }
-  .btn:hover {
-    background-color: #d66fc9;
-  }
-  
-  & .Miya {
-    width: 100%;
-    object-fit: cover;
-    transition: all 0.5s ease;
-  }
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('https://i.pinimg.com/originals/7f/22/89/7f2289a383c1c3a9c89d7c210f0645ef.gif');
+  background-size: cover;
+}
+.container {
+  text-align: center;
+}
+.buttons {
+  margin-top: 20px;
+}
+.btn {
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: #827cf4;
+}
+
+& .miya {
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.5s ease;
+}
