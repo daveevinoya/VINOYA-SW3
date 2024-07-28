@@ -1,422 +1,692 @@
-* {
+body {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
 }
-@font-face {
-    font-family: 'icomoon';
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-  }
 
-  [class^="icon-"], [class*=" icon-"] {
-      font-family: 'icomoon';
-      font-style: normal;
-      font-weight: normal;
-      font-variant: normal;
-      text-transform: none;
-
-      
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-  }
-
-body {
-	font-family: sans-serif;
-	color: #ccc;
-	line-height: 1.5;
-	font-size: 1em;
-	background: #181818;
-}
-.talign-center {
-	text-align: center;
-}
-a, a:visited {
-	text-decoration: none;
-	color: #444;
-	text-shadow: 0 1px 2px rgba(0,0,0, .3);
-	transition: color .3s;
-}
-a:hover, a:active {
-	color: #7f7373;
-}
-footer {
-	margin-top: 2em;
-}
-body {
-    font-family: 'Poppins', sans-serif;
-    background: #000000;
-    color: #fff;
-    line-height: 1.5;
+.home-button-container {
     display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    margin-left: 30px;
+    justify-content: flex-start; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
 }
 
-ul {
-    list-style: none;
+.home-button {
+    display: inline-block; /* Change from block to inline-block */
+    background-color: #00aeff;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 4px;
+    border-color: #00aeff;
+    cursor: pointer;
+    margin: 0; /* Remove the left margin */
+    margin-top: 20px;
+    font-size: 1.5rem;
 }
-
-a {
+a{
     text-decoration: none;
-    color: inherit;
+    color: white;
 }
 
-.footer-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    padding: 20px;
-}
-
-.footer2 {
-    background-color: #00DDFF;
-    color: #000000;
-    padding: 15px;
+.static{
+    background-color: #f0f2f5;
+    padding: 10px;
+    margin-top: 20px;
     text-align: center;
+    color: #fd557c;
 }
 
-.footer2 a {
-    color: #141414;
-    margin: 0 15px;
-    transition: color 0.3s;
-}
-
-.footer2 a:hover {
-    color: #f75990;
-}
-
-.footer4 {
-    background-color: #a0d2eb;
-    color: #fff;
-    padding: 50px;
+h1 {
     text-align: center;
-    border-radius: 20px;
-}
-
-.footer4 a {
-    color: #fff;
-    margin: 0 10px;
-    transition: color 0.3s;
-}
-
-.footer4 a:hover {
-    color: #000000;
-}
-
-.footer5 {
-    background-color: #9df9ef;
-    color: #000000;
-    padding: 20px;
-    text-align: center;
-}
-
-.footer5 a {
-    color: #fff;
-    margin: 0 10px;
-    position: relative;
-    display: inline-block;
-}
-
-.footer5 a::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #ff1d58;
-    visibility: hidden;
-    transform: scaleX(0);
-    transition: all 0.3s ease-in-out;
-}
-
-.footer5 a:hover::before {
-    visibility: visible;
-    transform: scaleX(1);
+    font-size: 3rem;
+    margin-bottom: 40px;
 }
 
 .footer {
-    background-color: #2f447b;
-    padding: 70px 0;
-}
-
-.footer-col {
-    width: 100%;
-
-}
-
-.footer-col h4 {
-    font-size: 18px;
-    color: #ffffff;
-    text-transform: capitalize;
-    margin-bottom: 35px;
-    font-weight: 500;
-    position:static;
-    width: 100%;
-}
-
-.footer-col h4::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    background-color: #ff7d7d;
-    height: 2px;
-    width: 50px;
-}
-
-.footer-col ul li:not(:last-child) {
-    margin-bottom: 10px;
-}
-
-.footer-col ul li a {
-    font-size: 16px;
-    color: #383636;
-    display: block;
-    transition: all 0.3s ease;
-}
-
-.footer-col ul li a:hover {
-    color: #844646;
-    padding-left: 8px;
-}
-
-.footer-col .social-links a {
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    background-color: rgba(195, 103, 103, 0.2);
-    margin: 0 10px 10px 0;
+    background-color: #00aeff;
+    color: white;
     text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-    color: #ffffff;
-    transition: all 0.5s ease;
+    padding: 20px 0;
 }
 
-.footer-col .social-links a:hover {
-    color: #24262b;
-    background-color: #ffffff;
-}
-
-@media (max-width: 767px) {
-    .footer-col {
-        width: 50%;
-        margin-bottom: 30px;
-    }
-}
-
-@media (max-width: 574px) {
-    .footer-col {
-        width: 100%;
-    }
-}
-
-.main-footer-box {
-    height: 35vh;
-    background-color: #f75990;
-    border-radius: 5px 5px 20px 20px;
-    display: grid;
-    grid-template-columns: 40% 60%;
-}
-
-.footer-box1 {
-    text-align: center;
+.footer a {
     color: white;
-    display: grid;
-    grid-template-rows: 40% 30% 30%;
+    text-decoration: none;
+    margin: 0 15px;
 }
 
-.footer-box2 {
-    font-size: larger;
-    display: grid;
-    grid-template-columns: 40% 60%;
-}
-
-.box1-slogan p:hover {
-    text-shadow: 0 0 5px white;
-}
-
-.box1-path ul li {
-    display: inline;
-}
-
-.box1-path ul li a {
-    color: white;
-    transition: color 0.25s ease-in-out;
-}
-
-.box1-path ul li a:hover {
-    color: rgba(60, 176, 245, 0.8);
-}
-
-.box2-subbox1 {
-    display: flex;
-    align-items: center;
-}
-
-.box2-subbox1 ul li {
-    list-style: none;
-}
-
-.box2-subbox1 ul li a {
-    color: white;
-}
-
-.box2-subbox1 ul #subbox1-li1,
-.box2-subbox1 ul #subbox1-li2 {
-    padding: 1em 0;
-    transition: transform 0.5s ease;
-}
-
-.subbox1-a {
-    margin: 1em;
-}
-
-.box2-subbox2 {
-    text-align: center;
-    display: grid;
-    grid-template-rows: 70% 30%;
-    color: white;
-}
-
-.subbox2-brief h3 {
-    font-size: 1.2em;
-    opacity: 0.95;
-}
-
-.subbox2-brief p {
-    margin: 0 1em;
-    opacity: 0.9;
-}
-
-.subbox2-connect ul li {
-    display: inline;
-    padding: 0 0.5em 1em 0.5em;
-}
-
-#hackerrank-icon,
-#github-icon,
-#instagram-icon,
-#linkedin-icon,
-#whatsapp-icon {
-    height: 2em;
-    width: auto;
-    transition: height 200ms ease-in-out;
-}
-
-#instagram-icon:hover,
-#github-icon:hover,
-#linkedin-icon:hover,
-#hackerrank-icon:hover,
-#whatsapp-icon:hover {
-    height: 2.5em;
-    width: auto;
-}
-
-footer {
-    position: relative;
-    width: 100%;
-    background: #3c3274;
-    min-height: 100px;
-    padding: 20px 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-footer .social_icon,
-footer .menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.footer .social-icons {
     margin: 10px 0;
 }
 
-footer .social_icon li,
-footer .menu li {
-    list-style: none;
+.footer .social-icons img,
+.footer .logo {
+    width: 30px;
+    height: 30px;
 }
 
-footer .social_icon li a {
-    font-size: 2em;
-    color: #000000;
+.social-icons button {
+    border: none; 
+    background-color: #f31fa9;
+    color: white; 
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+.footer .contact-info {
+    margin: 20px 0;
+}
+
+.footer .content {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.footer-1 .content1 img {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    border-radius: 50%; /* This makes the image circular */
+    object-fit: cover; /* Ensures the image covers the area without losing its aspect ratio */
+}
+
+.footer-1 {
+    background-color: rgb(35, 100, 130);
+    color: rgb(88, 88, 88);
+    margin-top: 30px;
+}
+
+.content1 {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.footer-2 {
+    background-color: rgb(255, 12, 170);
+    color: black;
+    margin-top: 30px;
+}
+
+.content2 {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.footer-2 .links {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.footer-2 .links .column{
+    margin: 0 20px;
+}
+
+.footer-2 .links h4 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.footer-2 a {
+    color: rgb(73, 73, 73);
+    text-decoration: none;
+}
+
+.content hr {
+    background-color: rgb(255, 12, 170)a;
+    border: none;
+    height: 1px; 
+    margin: 0 auto; 
+}
+
+.footer-3 .nav {
+    margin: 20px 0;
+}
+
+.footer-3 .nav a {
     margin: 0 10px;
-    transition: 0.5s;
+    color: white;
+    text-decoration: none;
 }
 
-footer .social_icon li a:hover {
-    transform: translateY(-15px);
-    color: rgb(126, 26, 135);
+.footer-3 {
+    background-color: rgb(0, 255, 149);
+    color: white;
+    margin-top: 30px;
 }
 
-footer .menu li a {
-    font-size: 1.2em;
-    color: #000000;
-    margin: 0 10px;
-    transition: 0.5s;
-    opacity: 0.75;
+.footer-4 {
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
 }
 
-footer .menu li a:hover {
-    opacity: 1;
-    color: #e43673e9;
+.footer-4 .columns {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
 }
 
-footer p {
-    color: #000000;
-    text-align: center;
-    margin-top: 15px;
+.footer-4 .column {
+    margin: 10px;
+}
+
+.footer-4 .column h4 {
     margin-bottom: 10px;
-    font-size: 1.1em;
 }
 
-footer .wave {
-    position: absolute;
-    bottom: -100px;
-    left: 0;
-    width: 100%;
-    height: 40px;
-    background-size: 1500px 75px;
+.footer-4 .subscribe {
+    text-align: left;
 }
 
-footer .wave#wave1 {
-    z-index: 1000;
-    opacity: 1;
-    bottom: 0;
-    animation: animateWave 4s linear infinite;
+.footer-4 .subscribe input {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
 }
 
-footer .wave#wave2 {
-    z-index: 999;
-    opacity: 0.5;
-    bottom: 10px;
-    animation: animateWave_02 4s linear infinite;
+.footer-4 .subscribe button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(71, 62, 255);
+    color: white;
+    cursor: pointer;
 }
 
-footer .wave#wave3 {
-    z-index: 1000;
-    opacity: 0.2;s
-    bottom: 0;
-    animation: animateWave 3s linear infinite;
+
+.footer-4 a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 15px;
 }
 
-footer .wave#wave4 {
-    z-index: 999;
-    opacity: 0.7;
-    bottom: 20px;
-    animation: animateWave_02 3s linear infinite;
+
+
+/*Animated Design*/
+
+.footera {
+    background-color: #00aeff;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
 }
 
-@keyframes animateWave {
+.footera a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.footera .social-iconsa {
+    margin: 10px 0;
+}
+
+.footera .social-iconsa img,
+.footera .logoa {
+    width: 30px;
+    height: 30px;
+}
+
+.footera .contact-infoa {
+    margin: 20px 0;
+}
+
+.footera .contenta {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.social-iconsa button {
+    border: none; 
+    background-color: #1fc2f3;
+    color: white; 
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+.footer-1a button:hover {
+    transform: scale(1.2); /* Scale up the button to 110% of its original size */
+    transition: transform 0.3s ease; /* Smooth transition for the scaling effect */
+}
+
+.footer-1a .content1a img {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    border-radius: 50%; /* This makes the image circular */
+    object-fit: cover; /* Ensures the image covers the area without losing its aspect ratio */
+}
+
+.footer-1a {
+    background-color: rgb(0, 174, 255);
+    color: rgb(88, 88, 88);
+    margin-top: 30px;
+}
+
+.content1a {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.footer-2a {
+    background-color: rgb(250, 5, 230);
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+}
+
+.content2a {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.footer-2a .linksa {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.footer-2a .linksa .columna{
+    margin: 0 20px;
+}
+
+.footer-2a .linksa h4 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.footer-2a a {
+    color: rgb(73, 73, 73);
+    text-decoration: none;
+}
+.footer-2a a {
+    display: inline-block; /* Allows the application of padding and smooth transition */
+    padding: 5px 10px; /* Adjust padding as needed */
+    transition: background-color 0.3s ease; /* Smooth transition for the background color */
+    color: #FFFFFF; /* Initial text color */
+    text-decoration: none; /* Removes underline from links */
+}
+
+.footer-2a a:hover {
+    background-color: #ff2f05; /* Color fill on hover */
+}
+
+.contenta hr {
+    background-color: #ff00d4;
+    border: none;
+    height: 1px; 
+    margin: 0 auto; 
+}
+
+.footer-3a .nava {
+    margin: 20px 0;
+}
+
+.footer-3a .nava a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-3a {
+    background-color: rgb(116, 255, 186);
+    color: white;
+    margin-top: 30px;
+}
+
+/* Define Keyframes for Underline Animation */
+@keyframes underlineSlide {
+    from {
+        background-size: 0% 2px;
+    }
+    to {
+        background-size: 100% 2px;
+    }
+}
+
+/* Apply Animation to Anchors in .footer-3a */
+.footer-3a .nava a {
+    position: relative;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 2px;
+    transition: background-size 0.5s ease;
+}
+
+.footer-3a .nava a:hover {
+    animation: underlineSlide 0.5s forwards;
+}
+
+
+/* Define Keyframes for Color Animation */
+@keyframes colorWave {
+    0% { color: red; }
+    25% { color: yellow; }
+    50% { color: green; }
+    75% { color: blue; }
+    100% { color: red; }
+}
+
+/* Apply Animation to Paragraphs in .footer-2a */
+.footer-3a p {
+    animation: colorWave 5s infinite linear;
+}
+
+@keyframes changeColor {
+    0% { background-color: #50487f; }
+    25% { background-color: #6f00ff; }
+    50% { background-color: #677feb; }
+    75% { background-color: #1900ff; }
+    100% { background-color: #00aeff; }
+}
+.footer-4a {
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+}
+
+.footer-4a .columnsa {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.footer-4a .columna {
+    margin: 10px;
+}
+
+.footer-4a .columna h4 {
+    margin-bottom: 10px;
+}
+
+.footer-4a .subscribea {
+    text-align: left;
+}
+
+.footer-4a .subscribea input {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-4a .subscribea .send {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(71, 62, 255);
+    color: white;
+    cursor: pointer;
+}
+
+.footer-4a .subscribea .send:hover {
+    background-color: rgb(89, 79, 255); /* Lighter shade of the original color for contrast */
+    color: #ffffff; /* Keeps text color white for readability */
+    transform: scale(1.05); /* Slightly enlarges the button */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and scaling */
+}
+
+
+.footer-4a a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.footer-4a .columna a:hover {
+    transform: scale(1.3); /* Increase size by 10% on hover */
+    color: rgb(255, 255, 255);
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+
+/*footera for animated designs*/
+/* Hover Effect for .footera */
+.footera:hover {
+    background-color: #ff0000; /* New color on hover */
+}
+
+/* Hover Effect for Child Links */
+.footera a:hover {
+    color: #000000; /* Change text color on hover */
+}
+
+/* Hover Effect for Social Icons */
+.footera .social-iconsa:hover {
+    color: #000; /* Change icon color on hover */
+}
+
+.footera {
+    background-color: #00aeff;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footera a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.footera .social-iconsa {
+    margin: 10px 0;
+}
+
+.footera .social-iconsa img,
+.footera .logoa {
+    width: 30px;
+    height: 30px;
+}
+
+.footera .contact-infoa {
+    margin: 20px 0;
+}
+
+.footera .contenta {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+/*footer1 for animated designs*/
+
+/* Define Keyframes for Bounce Animation */
+.footera1:hover {
+    background-color: #6070ff; /* New color on hover */
+}
+
+
+@keyframes bounceIn {
     0% {
-        background-position-x: 1000px;
+        opacity: 0;
+        transform: translateY(-500px);
+    }
+    60% {
+        opacity: 1;
+        transform: translateY(30px);
+    }
+    80% {
+        transform: translateY(-10px);
     }
     100% {
-        background-position-x: 0px;
+        transform: translateY(0);
     }
+}
+
+/* Apply Animation to .footera1 */
+.footera1 {
+    animation: bounceIn 1s ease-out;
+}
+
+.footera1 {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footera1 a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.footera1 .social-iconsa {
+    margin: 10px 0;
+}
+
+.footera1 .social-iconsa img,
+.footera1 .logoa {
+    width: 30px;
+    height: 30px;
+}
+
+.footera1 .contact-infoa {
+    margin: 20px 0;
+}
+
+.footera1 .contenta {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/*footer2 for animated designs*/
+.footera2:hover {
+    background-color: #00aeff; /* New color on hover */
+}
+
+.footera2 {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footera2 a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.footera2 .social-iconsa {
+    margin: 10px 0;
+}
+
+.footera2 .social-iconsa img,
+.footera2 .logoa {
+    width: 30px;
+    height: 30px;
+}
+
+.footera2 .contact-infoa {
+    margin: 20px 0;
+}
+
+.footera2 .contenta {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/*footer3 for animated designs*/
+.footera3:hover {
+    background-color: #30f100c6; /* New color on hover */
+}
+.footera3 {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footera3 a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.footera3 .social-iconsa {
+    margin: 10px 0;
+}
+
+.footera3 .social-iconsa img,
+.footera3 .logoa {
+    width: 30px;
+    height: 30px;
+}
+
+.footera3 .contact-infoa {
+    margin: 20px 0;
+}
+
+.footera3 .contenta {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/*footer4 for animated designs*/
+
+.footera4 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footera4 .social-iconsa {
+    margin: 10px 0;
+}
+
+.footera4 .social-iconsa img,
+.footera4 .logoa {
+    width: 30px;
+    height: 30px;
+}
+
+.footera4 .contact-infoa {
+    margin: 20px 0;
+}
+
+.footera4 .contenta {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Define Keyframes for Slide-Up and Fade-In Animation */
+@keyframes slideUpFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Apply Animation to .footera4 Elements */
+.footera4 {
+    animation: slideUpFadeIn 1s ease-out forwards;
+    animation: changeColor 10s infinite linear;
+}
+
+.footera4 .social-iconsa,
+.footera4 .logoa,
+.footera4 .contact-infoa,
+.footera4 .contenta {
+    animation: slideUpFadeIn 1.5s ease-out forwards;
 }

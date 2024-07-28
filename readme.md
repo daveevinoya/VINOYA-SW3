@@ -6,21 +6,21 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/jl.png" alt="Justice League" width="130" height="100">
+    <img src=" alt="" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Seatwork 3</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  This is my Seatwork 3
+  Header and Footers
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  --> daveevinoya
+<!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-https://github.com/daveevinoya/VINOYA-SW
+![](https://visit-counter.vercel.app/counter.png?page=daveevinoya/VINOYA-SW3)
 
 ---
 
@@ -57,22 +57,26 @@ https://github.com/daveevinoya/VINOYA-SW
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-This project contains 5 different designs of footer and header.
+Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used 
+ What is the project
+- seatwork 3
+Whats the purpose
+- The purpose of the website is to showcase a design concept where headers and footers are prominent features.
+What are key components
+-multi page website
+What technology used and how it is used
+- html and css
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- Designs of the website
-- Implementation of the website
-- hover
-- footer and header styles
-- Multi page
+-multi page website
+
+-transitions and designs
+
+
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -117,6 +121,6 @@ WD-ProjectName
 ## Resources
 
 <!-- TODO: Add References -->
-| Title | Purpose | Link |
+<!-- | Title | Purpose | Link | -->
 |-|-|-|
-| Codepen | help me fix the errors, and guide me.| https://codepen.io/ |
+| codepen | fix my errors | https: codepen.io |

@@ -1,178 +1,33 @@
-.body {
-    font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: url('../img/justicepic.jpg') no-repeat center center fixed;
-    background-size: cover;
-}
-
-.header {
-    font-family: ' Ieicester Light';
-    font-weight: normal;
-    font-style: normal;
-}
-
-.container {
-    max-width: 700px;
-    margin: 13px auto;
-    text-align: center;
-    border-radius: 10px;
-    padding: 20px;
-}
-
-.header {
-    padding: 20px;
-    font-size: large;
-    color: rgb(53, 3, 3);
-    position: relative;
-}
-
-.header .logo {
-    position: absolute;
-    top: 10px;
-    left: 14px;
-    width: 90px;
-    height: auto;
-    border-radius: 50%;
-}
-
-.footer {
-    background-color: #ffa8B6;
-    color: #000000;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    height: 50px;
-    line-height: 20px; 
-    margin: 0;
-}
-
-.h1 {
-    margin-bottom: 100px;
-}
-
-.header {
-    font-size: 12px;
-    width: 100%;
-    line-height: 1.5;
-    margin-bottom: 350px;
-    margin-right: 250px;
-    bottom: px;
-}
-.right-side {
-    padding-left: 400px;
-}
-
-.btn, .btn-secondary {
-
-    padding: 12px 65px;
-    background-color: #d0bdf4;
-    color: #000000;
-    text-decoration: none;
-    border-radius: 30px;
-    transition: all 0.25s ease;
-    box-shadow: 0 4px 8px 9px rgba(0, 0, 0, 0.1);
-}
-
-.btn-secondary {
-    margin: 380px 300px;
-    transition: all 0.5s ease;
-}
-
-.btn:hover, .btn-secondary:hover {
-    background-color: #a0d2eb;
-    transform: translateY(-2px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
-}
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background: url('../img/justicepic.jpg') no-repeat center center fixed;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://pa1.aminoapps.com/6396/eb6179ffcef19a793d3356e388908f715cdf42d6_00.gif');
     background-size: cover;
-    color: #ffffff;
-    line-height: 1.5;
-
-}
-main section p {
-    color: rgb(255, 255, 255);
-    margin: 16px 0;
-    margin-top: 30rem;
-    font-size: 14px;
+  }
+  .container {
     text-align: center;
-}
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 100px;
-}
-
-.header {
-    background-color: #0049B7;
-    padding: 3px;
-    text-align: center;
-    box-shadow: 0 2px 2px rgb(0, 0, 0); 
-}
-
-.header .logo {
-    width: 100px;
-    height: auto;
-    border-radius: 50%; 
-}
-
-.header h1 {
-    font-size: 2rem; 
-    box-shadow: rgb(255, 255, 255) 3px 3px 6px 0px inset, #e5eaf5 -3px -3px 6px 1px inset; 
-    margin-bottom: 10px;
-    color: #000000; 
-}
-
-.header h2 {
-    font-size: 1.8rem;
-    color: #210c7e; 
-}
-
-.header p {
-    font-size: 1rem; 
-    margin-bottom: 20px; 
-}
-
-.footer {
-    background-color: #2e2c2c; 
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
+  }
+  .buttons {
+    margin-top: 20px;
+  }
+  .btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #006aff;
+    color: white;
+    border-radius: 5px;
+  }
+  .btn:hover {
+    background-color: #d66fc9;
+  }
+  
+  & .Miya {
     width: 100%;
-}
-
-.footer p {
-    font-size: 0.9rem;
-}
-
-
-.hover {
-    position: relative;
-    display: inline-block;
-    font-size: 2.5rem; 
-    color: rgba(255, 255, 255, 0.3); 
-    transition: all 0.4s ease;
-}
-
-.hover::before {
-    content: '';
-    display: block;
-    padding-top: 100%;
-}
-
-.hover:hover {
-    background: rgba(255, 255, 255, 0.1); 
-    color: #edf756; 
-}
+    object-fit: cover;
+    transition: all 0.5s ease;
+  }
