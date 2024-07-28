@@ -60,15 +60,14 @@
 Description of the project in details.
 
 Guiding Question:
- What is the project
-Whats the purpose
-What technology used and how it is used
+- What is the project
+- Whats the purpose
+- What technology used and how it is used
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - Multi page website
-
 - Transitions and designs
 
 
@@ -117,5 +116,4 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 <!-- | Title | Purpose | Link | -->
-|-|-|-|
 | codepen | fix my errors | https: codepen.io |
