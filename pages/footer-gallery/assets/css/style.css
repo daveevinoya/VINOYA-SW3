@@ -161,7 +161,7 @@ h1 {
 }
 
 .footer-4 {
-    background-color: rgb(246, 255, 74);
+    background-color: rgb(74, 101, 255);
     color: rgb(0, 0, 0);
     margin-top: 30px;
 }
@@ -374,7 +374,7 @@ h1 {
 /* Define Keyframes for Color Animation */
 @keyframes colorWave {
     0% { color: red; }
-    25% { color: yellow; }
+    25% { color: rgb(0, 149, 255); }
     50% { color: green; }
     75% { color: blue; }
     100% { color: red; }
@@ -456,7 +456,7 @@ h1 {
 /*footera for animated designs*/
 /* Hover Effect for .footera */
 .footera:hover {
-    background-color: #ff0000; /* New color on hover */
+    background-color: #ec6969; /* New color on hover */
 }
 
 /* Hover Effect for Child Links */
@@ -604,7 +604,7 @@ h1 {
 
 /*footer3 for animated designs*/
 .footera3:hover {
-    background-color: #73ff37; /* New color on hover */
+    background-color: #93df72; /* New color on hover */
 }
 .footera3 {
     color: white;
