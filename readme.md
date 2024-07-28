@@ -61,20 +61,15 @@ Description of the project in details.
 
 Guiding Question:
  What is the project
-- seatwork 3
 Whats the purpose
-- The purpose of the website is to showcase a design concept where headers and footers are prominent features.
-What are key components
--multi page website
 What technology used and how it is used
-- html and css
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
--multi page website
+- Multi page website
 
--transitions and designs
+- Transitions and designs
 
 
 
