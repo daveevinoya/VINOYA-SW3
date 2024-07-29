@@ -116,5 +116,6 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 <!-- | Title | Purpose | Link | -->
+| Title | Purpose | Link |
 |-|-|-|
-| Codepen | help me fix the errors | https://codepen.io/ |
+|codepen| help me fix the errors | https://codepen.io/ |
