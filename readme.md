@@ -6,14 +6,14 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="" alt="" width="130" height="100">
+    <img src=" alt="" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Seatwork 3</h3>
+  <h3 align="center">SEATWORK 3</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Header and Footers
+  Static and Dynamic Designs of Header and Footer
 </div>
 
 <br />
@@ -60,9 +60,10 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What technology used and how it is used
+- Seatwork 3
+- The purpose of the website is to showcase a design concept where headers and footers are prominent features.
+- Multi page website
+- HTML and CSS
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -116,4 +117,5 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 <!-- | Title | Purpose | Link | -->
-| codepen | fix my errors | https: codepen.io |
+|-|-|-|
+| Codepen | help me fix the errors | https://codepen.io/ |
