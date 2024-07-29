@@ -6,7 +6,6 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src=" alt="https://contents.spin.ph/image/resize/image/2020/09/09/ml-oldlogo-1599651659.webp" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">SEATWORK 3</h3>
